@@ -1,0 +1,12 @@
+BUBBLE SORT {BAD ALGORITHM NOOB}:
+
+Bubble sort is a simple sorting algorithm that repeatedly steps through a list of elements, compares adjacent elements, and swaps them if they are in the wrong order. 
+This process continues until the entire list is sorted.
+
+
+TIME COMPLEXITY:- O(n^2)
+
+BEST CASE = O(n) {if the elements are already sorted}
+WORST CASE = O(n^2)
+AVERAGE CASE = O(n^2) 
+THE AVERAGE COMPARISIONS = n(n-1)/2
