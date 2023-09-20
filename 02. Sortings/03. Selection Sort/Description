@@ -1,0 +1,11 @@
+SELECTION SORT :
+
+Selection sort is a simple sorting algorithm that repeatedly selects the smallest (or largest) element from an unsorted list and places it at the beginning (or end) of the sorted portion of the list. 
+This process is repeated until the entire list is sorted. Simply selection sort is using the conept of minIndex.
+
+TIME COMPLEXITY :- O(n^2)
+
+BEST CASE : O(n^2)
+WORST CASE : O(n^2)
+AVERAGE CASE : O(n^2)
+SPACE COMPLEXITY : O(1)
