@@ -1,0 +1,13 @@
+LINEAR SEARCH : 
+
+Linear search is a simple searching algorithm that sequentially checks each element in a list or array until a match is found or the end of the list is reached.
+It starts at the beginning and compares each element one by one until the desired element is found or the entire list has been traversed.
+
+
+TIME COMPLEXITY : O(n)
+
+BEST CASE : O(1)
+WORST CASE : O(n)
+SPACE COMPLEXITY : O(1)
+AVERAGE COMPARISIONS : (n+1)/2
+
