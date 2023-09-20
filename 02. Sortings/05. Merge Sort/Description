@@ -1,0 +1,12 @@
+MERGE SORT:
+
+Mergesort is a popular computer algorithm for sorting a list or array of elements. 
+It works by dividing the unsorted list into smaller sublists, sorting those sublists, and then merging them back together to produce a sorted list. 
+This process of dividing, sorting, and merging continues until the entire list is sorted. 
+Mergesort is known for its stability and consistent performance, making it a reliable choice for sorting tasks.
+
+TIME COMPLEXITY :- O(nlogn)
+
+BEST CASE :- O(nlogn)
+WORST CASE :- O(nlogn)
+SPACE COMPLEXITY :- O(n)
