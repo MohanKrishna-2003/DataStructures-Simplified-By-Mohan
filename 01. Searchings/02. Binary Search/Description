@@ -1,0 +1,8 @@
+BINARY SEARCH : 
+
+Binary search is a search algorithm used to efficiently locate a specific target value within a sorted collection (e.g., an array or list) by repeatedly dividing the search range in half until the target is found or the search range becomes empty.
+This approach significantly reduces the number of comparisons required compared to linear search, making it faster for large datasets.
+
+TIME COMPLEXITY : O(logn)
+WORST CASE and AVERAGE CASE -> O(logn)
+BEST CASE -> O(1)
