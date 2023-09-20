@@ -1,0 +1,9 @@
+INSERTION SORT :
+
+Insertion sort is a simple sorting algorithm that repeatedly selects an element from an unsorted list and inserts it into its correct position within a sorted portion of the list, effectively building a sorted list from the unsorted one.
+
+TIME COMPLEXITY:- O(n^2)
+
+BEST CASE = O(n) {if array is already sorted}
+WORST CASE = O(n^2) {if array is in reverse order}
+AUXILLARY SPACE COMPLEXITY = O(1)
