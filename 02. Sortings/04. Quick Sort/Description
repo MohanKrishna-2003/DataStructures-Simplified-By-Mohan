@@ -1,0 +1,11 @@
+QUICK SORT :
+
+Quick sort is a popular sorting algorithm that works by dividing an array into smaller subarrays and recursively sorting them. It selects a pivot element and places it in its correct position, with smaller elements on the left and larger elements on the right. 
+This process is repeated until the entire array is sorted.
+
+TIME COMPLEXITY:- O(nlogn)
+
+BEST CASE : O(nlogn)
+WORST CASE : O(n^2)
+SPACE COMPLEXITY : O(1)
+AUXILLARY TIME COMPLEXITY : O(logn) {due to the function call stack..simply recursion}
