@@ -1,0 +1,20 @@
+STACK : 
+
+A stack is a simple data structure that follows the Last-In-First-Out (LIFO) principle. Imagine it like a stack of plates where you can only add or remove plates from the top. Here's a simple explanation:
+
+Stack: 
+
+A stack is a collection of elements (items) with two main operations:
+
+1. Push: This operation adds an item to the top of the stack.
+2. Pop: This operation removes and returns the item from the top of the stack.
+
+There's also a third operation:
+
+3. Peek (or Top): This operation allows you to look at the item on the top of the stack without removing it.
+
+Think of a stack like a pile of books. You can add a new book on top (push), take the top book off (pop), or just look at the title of the top book without removing it (peek).
+
+A real-world example of a stack is the call stack in computer programming, where functions are pushed onto the stack when they are called and popped off when they return.
+
+Stacks are used in many algorithms and applications, including managing function calls in computer programs, parsing expressions, and solving problems like the Tower of Hanoi.
