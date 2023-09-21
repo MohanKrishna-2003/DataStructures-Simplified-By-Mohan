@@ -1,0 +1,13 @@
+Balance the given expression and if it is balanced return true else false
+
+BALACNCED PARANTHESIS PROBLEM :
+
+Input : {{}}    Input : (((}}()
+Ouput : Yes     Output : No
+
+TIME COMPLEXITY : o(n)
+
+SPACE COMPLEXITY : o(n) -> due to stack.
+
+
+
