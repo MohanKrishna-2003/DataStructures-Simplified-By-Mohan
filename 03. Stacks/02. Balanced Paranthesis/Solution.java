@@ -1,54 +1,34 @@
 import java.util.*;
-public class Main 
-{
-    public static void main (String[] args) 
+
+public class Main {
+    public static void main(String[] args)
     {
-        String str = "{{}}";
-        if(checkBalanced(str))
-            System.out.println("The given string is balanced");
-        else 
-            System.out.println("The given string is not balanced");
+        String str = "{[[{]]}";
+        if (checkBalancedParanthesis(str))
+            System.out.println("The string is balanced");
+        else
+            System.out.println("The string is not balanced");
     }
-    
-    public static boolean checkBalanced(String str)
-    {
-        Stack<Character> s = new Stack<>();
-        for(int i=0; i<str.length(); i++)
-        {
-            char ch = str.charAt(i);
-            if(ch=='{' || ch=='[' || ch=='(')
-            {
+
+   public static boolean checkBalancedParanthesis(String str)
+   {
+       Stack<Character> s = new Stack<>();
+       for(int i=0; i<str.length(); i++)
+       {
+           char ch = str.charAt(i);
+           if(ch=='{' || ch=='[' || ch=='(')
                 s.push(ch);
-                continue;
-            }
-            
-            // Base Condition
-            if(s.isEmpty())
-                return false;
-            
-            char x;
-            switch(ch)
+                
+            else if(ch=='}' || ch==')' || ch==']')
             {
-                case '}': 
-                x = s.pop();
-                if(x==']' || ch==')')
+                if(s.isEmpty())
                     return false;
-                break;
                 
-                case ']':
-                x = s.pop();
-                if(x==')' || x=='}')
+                char x = s.pop();
+                if(ch=='}' && x!='{' || ch==']'&& x!='[' || ch==')'&&x!='(')
                     return false;
-                break;
-                
-                case ')':
-                x = s.pop();
-                if(x=='}' || x==']')
-                    return false;
-                break;
-                    
             }
-        }
-        return (s.isEmpty());
-    }
+       }
+       return s.isEmpty();
+   }
 }
