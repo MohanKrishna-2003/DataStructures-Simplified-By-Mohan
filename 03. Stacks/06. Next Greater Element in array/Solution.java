@@ -27,3 +27,25 @@ public class Main
 }
 
 // OPTIMIZED APPROACH
+import java.util.*;
+public class Main 
+{
+    public static void main (String[] args) 
+    {
+        int arr[] = {30, 50, 20, 15, 25};    
+        Stack<Integer> s = new Stack<>();
+        for(int i=0; i<arr.length; i++)
+        {
+            while(!s.isEmpty() && s.peek()<arr[i])
+            {
+                System.out.println(s.pop() + "->" + arr[i]);
+            }
+            s.push(arr[i]);
+        }
+        
+        while(s.isEmpty()==false)
+        {
+            System.out.println(s.pop() + "->" + " - ");
+        }
+    }
+}
